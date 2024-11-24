@@ -8,6 +8,11 @@
   src: url('./component/font/Karla-VariableFont_wght.ttf') format('truetype');
 }
 
+svg {
+  font-family: 'Karla';
+  src: url('./component/font/Karla-VariableFont_wght.ttf') format('truetype');
+}
+
 ::-webkit-scrollbar {
   width: 5px;
 }
@@ -85,6 +90,7 @@ h5 {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  z-index: 9999;
 }
 
 .bemvindo-box {
