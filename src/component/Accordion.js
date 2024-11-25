@@ -125,7 +125,7 @@ function Accordion(props) {
             scale={5}
             minScale={1}
             maxScale={10}
-            className="line__svg"
+            className="line__svg_map"
           >
             <img
               style={{ minHeight: "650px", display: (props.map ? 'block' : 'none') }}

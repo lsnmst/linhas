@@ -160,6 +160,9 @@ button:hover {
 
 .card-info {
   width: 55%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 .thumb {
@@ -230,6 +233,9 @@ button:hover {
 
   .accordion__svg {
     min-width: 200px;
+    scale: 1.5;
+    min-height: unset !important;
+    height: 300px;
   }
 
   .bemvindo-claim {
