@@ -10,6 +10,7 @@ function Accordion(props) {
   const line = useRef(null);
   const descrline = useRef(null);
   const sourceText = useRef(null);
+  const passangeir = useRef(null);
   const video1 = useRef(null);
   const video2 = useRef(null);
   const foto = useRef(null);
@@ -52,12 +53,19 @@ function Accordion(props) {
           dangerouslySetInnerHTML={{ __html: props.content }}
         />
 
-        <div
-          ref={sourceText}
-          className="accordion__source"
-          dangerouslySetInnerHTML={{ __html: props.sourceText }}
-        />
-
+        <div className="accordion__source">
+          <div
+            ref={passangeir}
+            style={{ display: (props.line ? 'block' : 'none') }}
+            className=""
+            dangerouslySetInnerHTML={{ __html: props.passangeir }}
+          />
+          <div
+            ref={sourceText}
+            className=""
+            dangerouslySetInnerHTML={{ __html: props.sourceText }}
+          />
+        </div>
 
         <hr style={{ width: '100%', color: 'black', clear: "both", marginBottom: "5px", height: "6px" }} />
 
