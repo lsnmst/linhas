@@ -217,6 +217,14 @@ button:hover {
     width: 100%;
   }
 
+  .box-line-svg {
+    touch-action: none;
+  }
+
+  .box-map {
+    touch-action: none;
+  }
+
   .accordion__text {
     width: 100%;
     border-right: none;
