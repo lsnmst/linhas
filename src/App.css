@@ -36,16 +36,16 @@ body {
 }
 
 a:link {
-  color: rgb(114, 114, 114) !important;
-  text-decoration: none !important;
+  color: rgb(54, 49, 49) !important;
+  text-decoration:underline;
 }
 
 a:active {
-  color: rgb(114, 114, 114) !important;
+  color: rgb(54, 49, 49) !important;
 }
 
 a:visited {
-  color: rgb(114, 114, 114) !important;
+  color: rgb(54, 49, 49) !important;
 }
 
 h1 {
@@ -139,6 +139,7 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .card {
@@ -176,23 +177,37 @@ button:hover {
 .close {
   border: none;
   padding: 10px;
-  background-color: #dde7df;
+  border: 1px solid rgb(54, 49, 49);
   margin: 0 10px;
+}
+
+.close:hover {
+  border: 1px solid rgb(54, 49, 49);
 }
 
 .tag-filter {
   position: relative;
   justify-content: center;
   padding: 10px 5px;
-  font-size: 1.2em !important;
+  font-size: 1em !important;
   margin: 2px 2px;
 }
 
-.tags-container {
-  margin: 60px 20px 20px 20px;
+.container {
+  margin: 20px 20px 20px 20px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+}
+
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 5px;
+  border: #dbdbdb solid 1px;
+  min-width: 200px;
+  margin-bottom: 10px;
 }
 
 .thumb>img {
@@ -205,7 +220,7 @@ button:hover {
 
 @media only screen and (max-width: 600px) {
 
-  .tags-container {
+  .container {
     display: block;
   }
 
@@ -218,11 +233,25 @@ button:hover {
   }
 
   .box-line-svg {
-    touch-action: none;
+    pointer-events: none !important;
+    touch-action: none !important;
+    -webkit-touch-action: none !important;
+    -moz-touch-action: none !important;
+  }
+
+  .box-line-svg>div>div>div {
+    display: none;
   }
 
   .box-map {
-    touch-action: none;
+    pointer-events: none !important;
+    touch-action: none !important;
+    -webkit-touch-action: none !important;
+    -moz-touch-action: none !important;
+  }
+
+  .box-map>div>div>div {
+    display: none;
   }
 
   .accordion__text {

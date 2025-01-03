@@ -10,7 +10,7 @@ class Bemvindo extends React.Component {
         <div style={{}}><h5>LINHAS</h5></div>
         <div style={{ alignItems: "right", marginLeft: "10px", marginRight: "5px", maxWidth:"100%", fontSize: "0.8rem !important", color: "white" }}>
           <Popup trigger={<button style={{ color: "white" }}>�✎</button>} position="right center">
-            <div className="bemvindo-popup">�✎<br />LINHAS é um data project criado para amplificar as vozes dxs moradorxs e trabalhadorxs do Rio de Janeiro. Entre em contato com <a href="mailto:hello@alessandromusetta.com">Alessandro</a> para saber mais<br /><br />O arquivo foi inspirado no artigo da autoria de Gabriel Weber <a href="https://assossiassao.pt/474-jacare-copacabana-o-auto-da-linha-do-inferno">“474 JACARÉ – COPACABANA: O auto da linha do inferno”</a>. O texto introdutório ao arquivo cita as palavras do artigo mencionado.</div>
+            <div className="bemvindo-popup">�✎<br />LINHAS é um data project criado para amplificar as vozes dxs moradorxs e trabalhadorxs do Rio de Janeiro.<br /><br />O arquivo foi inspirado no artigo da autoria de Gabriel Weber <a href="https://assossiassao.pt/474-jacare-copacabana-o-auto-da-linha-do-inferno">“474 JACARÉ – COPACABANA: O auto da linha do inferno”</a>. O texto introdutório ao arquivo cita as palavras do artigo mencionado.<br /><br />Entre em contato com <a href="mailto:hello@alessandromusetta.com">Alessandro</a> para saber mais.</div>
           </Popup>
         </div>
       </div>
