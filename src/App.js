@@ -11,6 +11,27 @@ function App() {
   const id = useId();
 
   const projects = [
+        {
+      title: 'Registro',
+      description: '<b>3 de junho de 2025, h 13:47 (veículo D13216)<br />Estr. do Guandú do Sena, 2276 - Bangu</b><br /><br />O funkeiro Oruam sobe no teto dos ônibus parados em frente ao presídio Bangu 3, no Complexo de Gericinó, em meio à multidão que aguarda a liberação do funkeiro MC Poze do Rodo.',
+      sourceText: '<b>Referências:</b><br /><br /><li><a href="https://www.metropoles.com/colunas/mirelle-pinheiro/a-espera-de-poze-oruam-sobe-em-onibus-e-tira-camisa-em-bangu-video" target=”_blank”>À espera de Poze, Oruam sobe em ônibus e tira camisa em Bangu.</a></li>',
+      passangeir: '<b>Passageirxs:</b><br /><br />Número total de passageirxs embarcados na linha 765 em 3 de junho de 2025 → 2403<br /><br /><b>Consórcio de empresas:</b> Santa Cruz<br /><br /><b>Tarifa:</b> regular - R$ 4,70<br /><br />',
+      veiculo: 'D13216',
+      linha: '765<br />Mendanha X Deodoro',
+      thumb: 'https://www.alessandromusetta.com/cloud/linhas/svg/thumb__20250603.svg',
+      data: '3 de junho de 2025',
+      hora: '13:47',
+      tags: ['Rio de Janeiro', 'celebração coletiva'],
+      line: 'https://www.alessandromusetta.com/cloud/linhas/svg/line__20250603.svg',
+      descrline: 'Esta é a rota que o veículo D13216 percorreu entre 04:15 e 22:18 em 3 de junho de 2025. Às 13h47, o veículo se encontrava em frente ao presídio Bangu 3, no Complexo de Gericinó.<br /><br /><i>A análise foi elaborada com base nos dados da Secretaria Municipal de Transportes - SMTR do Rio de Janeiro.</i>',      video1: 'https://www.alessandromusetta.com/cloud/linhas/video/20250603.mp4',
+      video2: null,
+      foto: 'https://www.alessandromusetta.com/cloud/linhas/foto/20250306.jpg',
+      sourceVideo: '<b>Referências:</b> Metrópoles/<br />Reprodução redes sociais',
+      map: null,
+      titlemap: null,
+      descrmap: null,
+      color: '#ff6a6a',
+    },
     {
       title: 'Registro',
       description: '<b>27 de março de 2025, h 17:11 (veículo C44655)<br />R. Barão do Bom Retiro, 1327 - Engenho Novo</b><br /><br />Cinco ônibus foram apreendidos e usados como barricadas no Engenho Novo (veículos B58029, C44655, B25601, B25605, A29171). Vídeos e fotos que circulam nas mídias sociais mostram os ônibus atravessados na estrada e lixeiras em chamas. De acordo com a PM, as ações foram ordenadas pelo tráfico como retaliação à ocupação no Morro São João, onde equipes estão estabelecidas desde janeiro. O objetivo, segundo a PM, é impedir a guerra entre facções rivais do Morro São João e do Morro dos Macacos.',
@@ -93,7 +114,7 @@ function App() {
       video1: null,
       video2: null,
       foto: 'https://www.alessandromusetta.com/cloud/linhas/foto/20250216.jpg',
-      sourceVideo: '<b>Referências:</b> Kaio Marculino<br />Reprodução redes sociais',
+      sourceVideo: '<b>Referências:</b> Kaio Marculino/<br />Reprodução redes sociais',
       map: null,
       titlemap: null,
       descrmap: null,
