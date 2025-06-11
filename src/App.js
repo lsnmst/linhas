@@ -11,7 +11,29 @@ function App() {
   const id = useId();
 
   const projects = [
-        {
+    {
+      title: 'Registro',
+      description: '<b>10 de junho de 2025, h 5:56 (veículo B11605)<br />Av. Brasil - Passarela IBGE/Parada de Lucas</b><br /><br />O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro entrou no ESTÁGIO 2 às 06h50, em função de uma ocorrência policial que interdita a Avenida Brasil  e a Linha Vermelha, nos dois sentidos, na altura de Vigário Geral. Às 7h35 a direção da UFRJ determina que não haja aplicação de provas e avaliações e não sejam cobradas presenças dos estudantes e servidores em todos os campus. Quatro unidades de saúde estão temporariamente interditadas. Informações rapidamente compartilhadas nos grupos Whatsapp das linhas que passam pela Av. Brasil e que despertam a ira dxs passageirxs dos ônibus parados na pista ou que aguardam nos pontos de ônibus. A usuária Monica afirma drasticamente "No sábado eles não sabiam que tinha uma festa junina" referindo-se à morte do jovem Herus Guimarães Mendes, baleado durante uma operação no Morro Santo Amaro enquanto a comunidade celebrava, "hoje eles não sabiam também que na terça 06h da manhã a Avenida Brasil estaria movimentada". A paralisação das vias mais importantes da cidade levantou dúvidas sobre as escolhas das forças de segurança que impediriam xs passageirxs de se deslocar na ausência de alternativas.',
+      sourceText: '<b>Referências:</b><br /><br /><li>-</li>',
+      passangeir: '<b>Passageirxs:</b><br /><br />Número total de passageirxs embarcados na linha 362 em 10 de junho de 2025 → 4100<br /><br /><b>Consórcio de empresas:</b> Internorte<br /><br /><b>Tarifa:</b> regular - R$ 4,70<br /><br />',
+      veiculo: 'B11605',
+      linha: '362<br />HONORIO GURGEL X CASTELO',
+      thumb: 'https://www.alessandromusetta.com/cloud/linhas/svg/thumb__20250610.svg',
+      data: '10 de junho de 2025',
+      hora: '05:56',
+      tags: ['Rio de Janeiro', 'falta de alternativas', 'conflito e violência', '362'],
+      line: 'https://www.alessandromusetta.com/cloud/linhas/svg/line__20250610.svg',
+      descrline: 'Esta é a rota que o veículo B11605 percorreu entre 3:10 e 21:01 em 10 de junho de 2025. Às 5:56, o veículo estava transportando passageirxs na linha 362 Honório Gurgel - Castelo, quando o GPS do veículo registrou uma parada não planejada devido ao bloqueio da avenida pela polícia militar. O veículo B11605 foi o primeiro a ser interditado no sentido sul / linha vermelha. Destacadas em vermelho estão as localizações dos ônibus parados na avenida no momento que o COR-Rio emitiu o alerta ESTÁGIO 2 às 6h50.<br /><br /><i>A análise foi elaborada com base nos dados da Secretaria Municipal de Transportes - SMTR do Rio de Janeiro.</i>',
+      video1: 'https://www.alessandromusetta.com/cloud/linhas/video/20250610_a.mp4',
+      video2: 'https://www.alessandromusetta.com/cloud/linhas/video/20250610_b.mp4',
+      foto: null,
+      sourceVideo: '<b>Referências:</b><br />Voz das Comunidades, Canal Band News | Reprodução redes sociais',
+      map: 'https://www.alessandromusetta.com/cloud/linhas/svg/fogo__20250610.svg',
+      titlemap: '<b>Incidentes envolvendo violência armada registrados em 10 de junho de 2025</b>',
+      descrmap: 'Este mapa revela quantos incidentes envolvendo violência armada foram registrados em 10 de junho de 2025. Um acidente foi registrados em um raio de 1 km da localização do veículo B11605 às 05:56.<br/><br/><i>A análise foi elaborada com base nos dados do Fogo Cruzado.</i>',
+      color: '#fad761',
+    },
+    {
       title: 'Registro',
       description: '<b>3 de junho de 2025, h 13:47 (veículo D13216)<br />Estr. do Guandú do Sena, 2276 - Bangu</b><br /><br />O funkeiro Oruam sobe no teto dos ônibus parados em frente ao presídio Bangu 3, no Complexo de Gericinó, em meio à multidão que aguarda a liberação do funkeiro MC Poze do Rodo.',
       sourceText: '<b>Referências:</b><br /><br /><li><a href="https://www.metropoles.com/colunas/mirelle-pinheiro/a-espera-de-poze-oruam-sobe-em-onibus-e-tira-camisa-em-bangu-video" target=”_blank”>À espera de Poze, Oruam sobe em ônibus e tira camisa em Bangu.</a></li>',
@@ -23,7 +45,7 @@ function App() {
       hora: '13:47',
       tags: ['Rio de Janeiro', 'celebração coletiva'],
       line: 'https://www.alessandromusetta.com/cloud/linhas/svg/line__20250603.svg',
-      descrline: 'Esta é a rota que o veículo D13216 percorreu entre 04:15 e 22:18 em 3 de junho de 2025. Às 13h47, o veículo se encontrava em frente ao presídio Bangu 3, no Complexo de Gericinó.<br /><br /><i>A análise foi elaborada com base nos dados da Secretaria Municipal de Transportes - SMTR do Rio de Janeiro.</i>',      video1: 'https://www.alessandromusetta.com/cloud/linhas/video/20250603.mp4',
+      descrline: 'Esta é a rota que o veículo D13216 percorreu entre 04:15 e 22:18 em 3 de junho de 2025. Às 13h47, o veículo se encontrava em frente ao presídio Bangu 3, no Complexo de Gericinó.<br /><br /><i>A análise foi elaborada com base nos dados da Secretaria Municipal de Transportes - SMTR do Rio de Janeiro.</i>', video1: 'https://www.alessandromusetta.com/cloud/linhas/video/20250603.mp4',
       video2: null,
       foto: 'https://www.alessandromusetta.com/cloud/linhas/foto/20250306.jpg',
       sourceVideo: '<b>Referências:</b> Metrópoles/<br />Reprodução redes sociais',
