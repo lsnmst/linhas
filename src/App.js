@@ -11,6 +11,28 @@ function App() {
   const id = useId();
 
   const projects = [
+        {
+      title: 'Registro',
+      description: '<b>26 de junho de 2025, h 9:27 (veículo A41451)<br />Av. Borges de Medeiros, 3709 - Lagoa</b><br /><br />A queda de uma porta de ônibus em plena Zona Sul do Rio de Janeiro virou símbolo da precariedade do transporte público. Aconteceu na Lagoa Rodrigo de Freitas, quando um coletivo da linha 460 parou em um ponto e teve a porta arrancada ao abrir. Um passageiro saiu do veículo, recolheu a porta caída, pendurou-a no ombro e levou-a de volta para o interior do coletivo. “A porta caiu do ônibus, vou levar para ajudar o motorista. Ônibus parou no sinal, foi abrir e a porta caiu”. Apesar do incidente, o ônibus seguiu viagem com a porta danificada.',
+      sourceText: '<b>Referências:</b><br /><br /><li><a href="https://g1.globo.com/rj/rio-de-janeiro/noticia/2025/06/26/porta-de-onibus-cai-na-lagoa.ghtml" target=”_blank”>VÍDEO: porta de ônibus cai na Lagoa, e passageiro desce do coletivo para buscar</a></li>',
+      passangeir: '<b>Passageirxs:</b><br /><br />Número total de passageirxs embarcados na linha 460 em 26 de junho de 2025 → 11115<br /><br /><b>Consórcio de empresas:</b> Intersul<br /><br /><b>Tarifa:</b> regular - R$ 4,70<br /><br />',
+      veiculo: 'A41451',
+      linha: '460<br />SAO CRISTOVAO X LEBLON',
+      thumb: 'https://www.alessandromusetta.com/cloud/linhas/svg/thumb__20250626.svg',
+      data: '26 de junho de 2025',
+      hora: '9:27',
+      tags: ['Rio de Janeiro', 'mau estado de manutenção', '460'],
+      line: 'https://www.alessandromusetta.com/cloud/linhas/svg/line__20250626.svg',
+      descrline: 'Esta é a rota que o veículo A41451 percorreu entre 05:36 e 11:07 em 26 de junho de 2025. Às 9:27, o veículo se encontrava parado na Av. Borges de Medeiros, 3709 transportando passageirxs na linha 460 São Cristóvão - Leblon após a porta traseira ter caído no ponto da praça Ricardo Palma.<br /><br /><i>A análise foi elaborada com base nos dados da Secretaria Municipal de Transportes - SMTR do Rio de Janeiro.</i>',
+      video1: 'https://www.alessandromusetta.com/cloud/linhas/video/20250626.mp4',
+      video2: null,
+      foto: 'https://www.alessandromusetta.com/cloud/linhas/foto/20250626.jpg',
+      sourceVideo: '<b>Referências:</b><br /> Reprodução TV Globo',
+      map: null,
+      titlemap: null,
+      descrmap: null,
+      color: '#f0f55b',
+    },
     {
       title: 'Registro',
       description: '<b>10 de junho de 2025, h 5:56 (veículo B11605)<br />Av. Brasil - Passarela IBGE/Parada de Lucas</b><br /><br />O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro entrou no ESTÁGIO 2 às 06h50, em função de uma ocorrência policial que interdita a Avenida Brasil  e a Linha Vermelha, nos dois sentidos, na altura de Vigário Geral. Às 7h35 a direção da UFRJ determina que não haja aplicação de provas e avaliações e não sejam cobradas presenças dos estudantes e servidores em todos os campus. Quatro unidades de saúde estão temporariamente interditadas. Informações rapidamente compartilhadas nos grupos Whatsapp das linhas que passam pela Av. Brasil e que despertam a ira dxs passageirxs dos ônibus parados na pista ou que aguardam nos pontos de ônibus. A usuária Monica afirma drasticamente "No sábado eles não sabiam que tinha uma festa junina" referindo-se à morte do jovem Herus Guimarães Mendes, baleado durante uma operação no Morro Santo Amaro enquanto a comunidade celebrava, "hoje eles não sabiam também que na terça 06h da manhã a Avenida Brasil estaria movimentada". A paralisação das vias mais importantes da cidade levantou dúvidas sobre as escolhas das forças de segurança que impediriam xs passageirxs de se deslocar na ausência de alternativas.',
@@ -43,7 +65,7 @@ function App() {
       thumb: 'https://www.alessandromusetta.com/cloud/linhas/svg/thumb__20250603.svg',
       data: '3 de junho de 2025',
       hora: '13:47',
-      tags: ['Rio de Janeiro', 'celebração coletiva'],
+      tags: ['Rio de Janeiro', 'celebração coletiva', '765'],
       line: 'https://www.alessandromusetta.com/cloud/linhas/svg/line__20250603.svg',
       descrline: 'Esta é a rota que o veículo D13216 percorreu entre 04:15 e 22:18 em 3 de junho de 2025. Às 13h47, o veículo se encontrava em frente ao presídio Bangu 3, no Complexo de Gericinó.<br /><br /><i>A análise foi elaborada com base nos dados da Secretaria Municipal de Transportes - SMTR do Rio de Janeiro.</i>', video1: 'https://www.alessandromusetta.com/cloud/linhas/video/20250603.mp4',
       video2: null,
