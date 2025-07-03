@@ -11,7 +11,7 @@ function App() {
   const id = useId();
 
   const projects = [
-        {
+    {
       title: 'Registro',
       description: '<b>26 de junho de 2025, h 9:27 (veículo A41451)<br />Av. Borges de Medeiros, 3709 - Lagoa</b><br /><br />A queda de uma porta de ônibus em plena Zona Sul do Rio de Janeiro virou símbolo da precariedade do transporte público. Aconteceu na Lagoa Rodrigo de Freitas, quando um coletivo da linha 460 parou em um ponto e teve a porta arrancada ao abrir. Um passageiro saiu do veículo, recolheu a porta caída, pendurou-a no ombro e levou-a de volta para o interior do coletivo. “A porta caiu do ônibus, vou levar para ajudar o motorista. Ônibus parou no sinal, foi abrir e a porta caiu”. Apesar do incidente, o ônibus seguiu viagem com a porta danificada.',
       sourceText: '<b>Referências:</b><br /><br /><li><a href="https://g1.globo.com/rj/rio-de-janeiro/noticia/2025/06/26/porta-de-onibus-cai-na-lagoa.ghtml" target=”_blank”>VÍDEO: porta de ônibus cai na Lagoa, e passageiro desce do coletivo para buscar</a></li>',
@@ -35,6 +35,27 @@ function App() {
     },
     {
       title: 'Registro',
+      description: '<b>24 de junho de 2025, h 12:16 (veículo A63538)<br />R. Urbano Santos, 98 - Urca</b><br /><br />Um desabamento deixou pelo menos três pessoas feridas na Urca, Zona Sul do Rio. O incidente aconteceu na altura do número 98 da Rua Ramon Franco. Por causa do desabamento, a Rua Ramon Franco foi temporariamente interditada por volta das 13h. Alguns ônibus ficaram parados nas proximidades do edifício desabado enquanto as operações de resgate estavam em andamento. O trânsito estava sendo desviado para a Rua Osório de Almeida, que passou a operar com a mão invertida.',      sourceText: '<b>Referências:</b><br /><br /><li><a href="https://g1.globo.com/rj/rio-de-janeiro/noticia/2025/06/24/desabamento-deixa-feridos-na-urca.ghtml" target=”_blank”>Desabamento deixa ao menos 3 feridos na Urca, Zona Sul do Rio</a></li>',
+      passangeir: '<b>Passageirxs:</b><br /><br />Número total de passageirxs embarcados na linha 167 em 24 de junho de 2025 → não disponível<br /><br /><b>Consórcio de empresas:</b> Internorte<br /><br /><b>Tarifa:</b> regular - R$ 4,70<br /><br />',
+      veiculo: 'A63538',
+      linha: '167<br />TERMINAL GENTILEZA X URCA',
+      thumb: 'https://www.alessandromusetta.com/cloud/linhas/svg/thumb__20250624.svg',
+      data: '24 de junho de 2025',
+      hora: '12:16',
+      tags: ['Rio de Janeiro', 'falta de alternativas', 'alteração de rota', '167'],
+      line: 'https://www.alessandromusetta.com/cloud/linhas/svg/line__20250624.svg',
+      descrline: 'Esta é a rota que o veículo A63538 percorreu entre 4:57 e 22:40 em 24 de junho de 2025. Às 12:16, o veículo estava transportando passageirxs na linha 167 Terminal Gentileza - Urca, quando o GPS do veículo registrou uma parada não planejada devido ao desabamento de um edifício.<br /><br /><i>A análise foi elaborada com base nos dados da Secretaria Municipal de Transportes - SMTR do Rio de Janeiro.</i>',      
+      video1: 'https://www.alessandromusetta.com/cloud/linhas/video/20250624.mp4',
+      video2: null,
+      foto: null,
+      sourceVideo: '<b>Referências:</b><br />Reprodução redes sociais',
+      map: null,
+      titlemap: null,
+      descrmap: null,
+      color: '#ff964F',
+    },
+    {
+      title: 'Registro',
       description: '<b>10 de junho de 2025, h 5:56 (veículo B11605)<br />Av. Brasil - Passarela IBGE/Parada de Lucas</b><br /><br />O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro entrou no ESTÁGIO 2 às 06h50, em função de uma ocorrência policial que interdita a Avenida Brasil  e a Linha Vermelha, nos dois sentidos, na altura de Vigário Geral. Às 7h35 a direção da UFRJ determina que não haja aplicação de provas e avaliações e não sejam cobradas presenças dos estudantes e servidores em todos os campus. Quatro unidades de saúde estão temporariamente interditadas. Informações rapidamente compartilhadas nos grupos Whatsapp das linhas que passam pela Av. Brasil e que despertam a ira dxs passageirxs dos ônibus parados na pista ou que aguardam nos pontos de ônibus. A usuária Monica afirma drasticamente "No sábado eles não sabiam que tinha uma festa junina" referindo-se à morte do jovem Herus Guimarães Mendes, baleado durante uma operação no Morro Santo Amaro enquanto a comunidade celebrava, "hoje eles não sabiam também que na terça 06h da manhã a Avenida Brasil estaria movimentada". A paralisação das vias mais importantes da cidade levantou dúvidas sobre as escolhas das forças de segurança que impediriam xs passageirxs de se deslocar na ausência de alternativas.',
       sourceText: '<b>Referências:</b><br /><br /><li>-</li>',
       passangeir: '<b>Passageirxs:</b><br /><br />Número total de passageirxs embarcados na linha 362 em 10 de junho de 2025 → 4100<br /><br /><b>Consórcio de empresas:</b> Internorte<br /><br /><b>Tarifa:</b> regular - R$ 4,70<br /><br />',
@@ -43,7 +64,7 @@ function App() {
       thumb: 'https://www.alessandromusetta.com/cloud/linhas/svg/thumb__20250610.svg',
       data: '10 de junho de 2025',
       hora: '05:56',
-      tags: ['Rio de Janeiro', 'falta de alternativas', 'conflito e violência', '362'],
+      tags: ['Rio de Janeiro', 'conflito e violência', 'falta de alternativas', '362'],
       line: 'https://www.alessandromusetta.com/cloud/linhas/svg/line__20250610.svg',
       descrline: 'Esta é a rota que o veículo B11605 percorreu entre 3:10 e 21:01 em 10 de junho de 2025. Às 5:56, o veículo estava transportando passageirxs na linha 362 Honório Gurgel - Castelo, quando o GPS do veículo registrou uma parada não planejada devido ao bloqueio da avenida pela polícia militar. O veículo B11605 foi o primeiro a ser interditado no sentido sul / linha vermelha. Destacadas em vermelho estão as localizações dos ônibus parados na avenida no momento que o COR-Rio emitiu o alerta ESTÁGIO 2 às 6h50.<br /><br /><i>A análise foi elaborada com base nos dados da Secretaria Municipal de Transportes - SMTR do Rio de Janeiro.</i>',
       video1: 'https://www.alessandromusetta.com/cloud/linhas/video/20250610_a.mp4',
@@ -53,7 +74,7 @@ function App() {
       map: 'https://www.alessandromusetta.com/cloud/linhas/svg/fogo__20250610.svg',
       titlemap: '<b>Incidentes envolvendo violência armada registrados em 10 de junho de 2025</b>',
       descrmap: 'Este mapa revela quantos incidentes envolvendo violência armada foram registrados em 10 de junho de 2025. Um acidente foi registrados em um raio de 1 km da localização do veículo B11605 às 05:56.<br/><br/><i>A análise foi elaborada com base nos dados do Fogo Cruzado.</i>',
-      color: '#fad761',
+      color: '#66bee7',
     },
     {
       title: 'Registro',
@@ -558,7 +579,7 @@ function App() {
       map: null,
       titlemap: null,
       descrmap: null,
-      color: '#fad761',
+      color: '#ff964F',
     },
     {
       title: 'Registro',
